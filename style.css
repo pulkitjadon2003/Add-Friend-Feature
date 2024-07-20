@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1002/609/152/blue-blur-abstract-simple-background-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    height: 450px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: left;
+    border: 2px solid black;
+}
+
+#card p{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 12px;
+}
+
+#card button{
+    text-align: justify;
+    height: 40px;
+    width: 160px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.467) 2px 2px ;
+}
